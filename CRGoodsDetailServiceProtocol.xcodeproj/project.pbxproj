@@ -51,6 +51,7 @@
 		90C39E611E06C53800800668 /* CRGoodsDetailServiceProtocolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRGoodsDetailServiceProtocolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C39E651E06C53800800668 /* CRGoodsDetailServiceProtocolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRGoodsDetailServiceProtocolUITests.m; sourceTree = "<group>"; };
 		90C39E671E06C53800800668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C39E741E06C56900800668 /* CRGoodsDetailServiceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRGoodsDetailServiceProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		90C39E3F1E06C53800800668 /* CRGoodsDetailServiceProtocol */ = {
 			isa = PBXGroup;
 			children = (
+				90C39E731E06C55500800668 /* CRGoodsDetailServiceProtocol */,
 				90C39E431E06C53800800668 /* AppDelegate.h */,
 				90C39E441E06C53800800668 /* AppDelegate.m */,
 				90C39E461E06C53800800668 /* ViewController.h */,
@@ -138,6 +140,14 @@
 				90C39E671E06C53800800668 /* Info.plist */,
 			);
 			path = CRGoodsDetailServiceProtocolUITests;
+			sourceTree = "<group>";
+		};
+		90C39E731E06C55500800668 /* CRGoodsDetailServiceProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				90C39E741E06C56900800668 /* CRGoodsDetailServiceProtocol.h */,
+			);
+			path = CRGoodsDetailServiceProtocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
